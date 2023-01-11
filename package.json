@@ -1,0 +1,23 @@
+{
+  "name": "twitter-archive-elk",
+  "version": "1.0.0",
+  "description": "A sandbox project to fetch, understand and explore Twitter's data with Twitter Archive",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:tweets": "node index.js tweets",
+    "start:dms": "node index.js direct-messages",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "archive",
+    "elasticsearch",
+    "kibana",
+    "docker",
+    "docker",
+    "compose"
+  ],
+  "author": "J. Buget <contact@jbuget.fr>",
+  "license": "ISC"
+}
